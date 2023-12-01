@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
+
+//创建一个CPU检查
+
+
+
+
+//检查cpu         1.创建一个类继承自Thread
+public class CPUCheck extends Thread {
+    //2.重写run方法
+    @Override
+    public void run() {
+        //3.在run方法中写死循环
+        while (true) {
+            //4.打印当前线程的名字
+            System.out.println(Thread.currentThread().getName());
+        }
+    }
+}
+//创建一个漂亮的登陆界面
+public class LoginFrame extends JFrame {
+    //1.定义组件
+    private JLabel userLabel;
+    private JLabel passwordLabel;
+    private JTextField userField;
+    private JPasswordField passwordField;
+    private JButton loginButton;
+    private JButton resetButton;
+    private JButton exitButton;
+    private JPanel northPanel;
+    private JPanel centerPanel;
+    private JPanel southPanel;
+    private JLabel imageLabel;
+    private JLabel infoLabel;
+    private JLabel timeLabel;
+    private JLabel imageLabel2;
+    private JLabel imageLabel3;
+    private JLabel imageLabel4;
+    private JLabel imageLabel5;
+    private JLabel imageLabel6;
+    private JLabel imageLabel7;
+    private JLabel imageLabel8;
+    private JLabel imageLabel9;
+    private JLabel imageLabel10;
+    private JLabel imageLabel11;
+    private JLabel imageLabel12;
+    private JLabel imageLabel13;
+    private JLabel imageLabel14;
+    private JLabel imageLabel15;
+    private JLabel imageLabel16;
+    private JLabel imageLabel17;
+    private JLabel imageLabel18;
+    private JLabel imageLabel19;
+    private JLabel imageLabel20;
+    private JLabel imageLabel21;
+    private JLabel imageLabel22;
+    private JLabel imageLabel23;
+    private JLabel imageLabel24;
+    private JLabel imageLabel25;
+    private JLabel imageLabel26;
+    private JLabel imageLabel27;
+    private JLabel imageLabel28;
+    private JLabel imageLabel29;
+    private JLabel imageLabel30;
+    private JLabel imageLabel31;
+    private JLabel imageLabel32;
+    private JLabel imageLabel33;
+    private JLabel imageLabel34;
+    private JLabel imageLabel35;
+    private JLabel imageLabel36;
+    private JLabel imageLabel37;
+    private JLabel imageLabel38;
+    private JLabel imageLabel39;
+    private JLabel imageLabel40;
+    private JLabel imageLabel41;
+    private JLabel imageLabel42;
+    private JLabel imageLabel43;
+    private JLabel imageLabel44;
+    private JLabel imageLabel45;
+    private JLabel imageLabel46;
+    private JLabel imageLabel47;
+    private JLabel imageLabel48;
+    private JLabel imageLabel49;
+    private JLabel imageLabel50;
+    private JLabel imageLabel51;
+    private JLabel imageLabel52;
+    private JLabel imageLabel53;
+    private JLabel imageLabel54;
+    private JLabel imageLabel55;
+    private JLabel imageLabel56;
+    private JLabel imageLabel57;
+    private JLabel imageLabel58;
+    private JLabel imageLabel59
+
+    //2.创建一个构造方法
+    public LoginFrame() {
+        //3.调用初始化方法
+        init();
+        //4.设置显示
+        this.setTitle("登陆界面");
+        this.setSize(600, 400);
+        this.setLocationRelativeTo(null);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setVisible(true);
+    }
+    //3.初始化方法
+    private void init() {
+        //3.1创建组件
+        userLabel = new JLabel("用户名：");
+        passwordLabel = new JLabel("密    码：");
+        userField = new JTextField(20);
+        passwordField = new JPasswordField(20);
+        loginButton = new JButton("登陆");
+        resetButton = new JButton("重置");
+        exitButton = new JButton("退出");
+        northPanel = new JPanel();
+        centerPanel = new JPanel();
+        southPanel = new JPanel();
+        imageLabel = new JLabel();
+        infoLabel = new JLabel("欢迎使用本系统")
+        timeLabel = new JLabel();
+        imageLabel2 = new JLabel();
+        imageLabel3 = new JLabel();
+        imageLabel4 = new JLabel();
+        imageLabel5 = new JLabel();
+        imageLabel6 = new JLabel();
+        imageLabel7 = new JLabel();
+
+        //3.2设置布局管理器
+        northPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
+        centerPanel.setLayout(new GridLayout(2, 3));
+        southPanel.setLayout(new BorderLayout());
+
+        //3.3添加组件   northPanel
+        northPanel.add(imageLabel);
+
+        //3.3添加组件   centerPanel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
