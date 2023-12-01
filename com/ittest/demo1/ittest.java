@@ -19,38 +19,5 @@ class LoginPage {
     }
 }
 
-//检查cpu/内存/硬盘使用率
-class CheckResource {
-    public static void main(String[] args) {
-        System.out.println("检查资源");
-        System.out.println("CPU使用率：");
-        double cpu = 0.5;
-        System.out.println("内存使用率：");
-        double memory = 0.5;
-        System.out.println("硬盘使用率：");
-        double disk = 0.5;
-        if ()
-    }
-}
 
-//写一组1-100循环奇数
-class OddNumber {
-    public static void main(String[] args) {
-        System.out.println("奇数");
-        for (int i = 1; i <= 100; i++) {
-            if (i % 2 == 1) {
-                System.out.println(i);
-            }
-        }
-    }
-}
-class EvenNumber {
-    public static void main(String[] args) {
-        System.out.println("偶数");
-        for (int i = 1; i <= 100; i++) {
-            if (i % 2 == 0) {
-                System.out.println(i);
-            }
-        }
-    }
-}
+
