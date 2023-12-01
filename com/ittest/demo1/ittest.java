@@ -33,3 +33,24 @@ class CheckResource {
     }
 }
 
+//写一组1-100循环奇数
+class OddNumber {
+    public static void main(String[] args) {
+        System.out.println("奇数");
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 1) {
+                System.out.println(i);
+            }
+        }
+    }
+}
+class EvenNumber {
+    public static void main(String[] args) {
+        System.out.println("偶数");
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
